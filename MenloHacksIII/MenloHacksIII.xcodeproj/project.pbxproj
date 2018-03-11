@@ -17,6 +17,7 @@
 		957250982054C17500CC86DF /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957250972054C17500CC86DF /* EventCell.swift */; };
 		9572509A2054C30F00CC86DF /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957250992054C30F00CC86DF /* Event.swift */; };
 		957250A02054FDE200CC86DF /* NewEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9572509F2054FDE200CC86DF /* NewEventViewController.swift */; };
+		957250A220551F9A00CC86DF /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957250A120551F9A00CC86DF /* EventViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		957250972054C17500CC86DF /* EventCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
 		957250992054C30F00CC86DF /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		9572509F2054FDE200CC86DF /* NewEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewEventViewController.swift; sourceTree = "<group>"; };
+		957250A120551F9A00CC86DF /* EventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				9572509F2054FDE200CC86DF /* NewEventViewController.swift */,
 				957250752054A57A00CC86DF /* LoginViewController.swift */,
 				957250932054BD5900CC86DF /* EventsListViewController.swift */,
+				957250A120551F9A00CC86DF /* EventViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 			files = (
 				957250982054C17500CC86DF /* EventCell.swift in Sources */,
 				957250762054A57A00CC86DF /* LoginViewController.swift in Sources */,
+				957250A220551F9A00CC86DF /* EventViewController.swift in Sources */,
 				957250942054BD5900CC86DF /* EventsListViewController.swift in Sources */,
 				957250742054A57A00CC86DF /* AppDelegate.swift in Sources */,
 				957250A02054FDE200CC86DF /* NewEventViewController.swift in Sources */,
