@@ -23,6 +23,11 @@ class EventsListViewController: UIViewController, UITableViewDataSource, UITable
         eventsTableView.delegate = self
     }
     
+//    @IBAction func unwindToEventsListViewController(segue:UIStoryboardSegue)
+//    {
+//        
+//    }
+    
     // DataSource stuff
 //    func numberOfSections(in tableView: UITableView) -> Int {
 //        return 1
@@ -39,10 +44,10 @@ class EventsListViewController: UIViewController, UITableViewDataSource, UITable
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
     {
-        if(tableView == nil)
-        {
-            NSLog("NULL");
-        }
+//        if(tableView == nil)
+//        {
+//            NSLog("NULL");
+//        }
         let cell = tableView.dequeueReusableCell(withIdentifier: "EventCell", for: indexPath as IndexPath) as! EventCell
         
         // uncompleted activities

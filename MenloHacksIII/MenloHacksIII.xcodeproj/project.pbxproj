@@ -16,6 +16,7 @@
 		957250942054BD5900CC86DF /* EventsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957250932054BD5900CC86DF /* EventsListViewController.swift */; };
 		957250982054C17500CC86DF /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957250972054C17500CC86DF /* EventCell.swift */; };
 		9572509A2054C30F00CC86DF /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957250992054C30F00CC86DF /* Event.swift */; };
+		957250A02054FDE200CC86DF /* NewEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9572509F2054FDE200CC86DF /* NewEventViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		957250932054BD5900CC86DF /* EventsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsListViewController.swift; sourceTree = "<group>"; };
 		957250972054C17500CC86DF /* EventCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
 		957250992054C30F00CC86DF /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		9572509F2054FDE200CC86DF /* NewEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewEventViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,14 +85,13 @@
 		957250722054A57900CC86DF /* MenloHacksIII */ = {
 			isa = PBXGroup;
 			children = (
+				9572509C2054FA3700CC86DF /* View Controllers */,
 				957250972054C17500CC86DF /* EventCell.swift */,
 				957250732054A57A00CC86DF /* AppDelegate.swift */,
-				957250752054A57A00CC86DF /* LoginViewController.swift */,
 				957250772054A57A00CC86DF /* Main.storyboard */,
 				9572507A2054A57A00CC86DF /* Assets.xcassets */,
 				9572507C2054A57A00CC86DF /* LaunchScreen.storyboard */,
 				9572507F2054A57A00CC86DF /* Info.plist */,
-				957250932054BD5900CC86DF /* EventsListViewController.swift */,
 				957250992054C30F00CC86DF /* Event.swift */,
 			);
 			path = MenloHacksIII;
@@ -103,6 +104,16 @@
 				9572508A2054A57A00CC86DF /* Info.plist */,
 			);
 			path = MenloHacksIIITests;
+			sourceTree = "<group>";
+		};
+		9572509C2054FA3700CC86DF /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9572509F2054FDE200CC86DF /* NewEventViewController.swift */,
+				957250752054A57A00CC86DF /* LoginViewController.swift */,
+				957250932054BD5900CC86DF /* EventsListViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +223,7 @@
 				957250762054A57A00CC86DF /* LoginViewController.swift in Sources */,
 				957250942054BD5900CC86DF /* EventsListViewController.swift in Sources */,
 				957250742054A57A00CC86DF /* AppDelegate.swift in Sources */,
+				957250A02054FDE200CC86DF /* NewEventViewController.swift in Sources */,
 				9572509A2054C30F00CC86DF /* Event.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
