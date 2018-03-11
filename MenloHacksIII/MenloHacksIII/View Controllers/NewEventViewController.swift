@@ -15,6 +15,7 @@ class NewEventViewController: UIViewController {
     {
         dismiss(animated: true, completion: nil)
     }
+    
     @IBAction func createButtonPressed(_ sender: Any)
     {
         dismiss(animated: true, completion: nil)

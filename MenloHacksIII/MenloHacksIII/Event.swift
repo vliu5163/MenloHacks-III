@@ -11,4 +11,5 @@ class Event
 {
     var titleOfEvent = "hi"
     var locationOfEvent = "hi"
+    var details = "hi"
 }
