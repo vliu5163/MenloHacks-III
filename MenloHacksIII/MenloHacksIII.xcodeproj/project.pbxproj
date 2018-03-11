@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		957250742054A57A00CC86DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957250732054A57A00CC86DF /* AppDelegate.swift */; };
+		957250762054A57A00CC86DF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957250752054A57A00CC86DF /* LoginViewController.swift */; };
+		957250792054A57A00CC86DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 957250772054A57A00CC86DF /* Main.storyboard */; };
+		9572507B2054A57A00CC86DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9572507A2054A57A00CC86DF /* Assets.xcassets */; };
+		9572507E2054A57A00CC86DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9572507C2054A57A00CC86DF /* LaunchScreen.storyboard */; };
+		957250892054A57A00CC86DF /* MenloHacksIIITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957250882054A57A00CC86DF /* MenloHacksIIITests.swift */; };
+		957250942054BD5900CC86DF /* EventsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957250932054BD5900CC86DF /* EventsListViewController.swift */; };
+		957250982054C17500CC86DF /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957250972054C17500CC86DF /* EventCell.swift */; };
+		9572509A2054C30F00CC86DF /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957250992054C30F00CC86DF /* Event.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		957250852054A57A00CC86DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 957250682054A57900CC86DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9572506F2054A57900CC86DF;
+			remoteInfo = MenloHacksIII;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		957250702054A57900CC86DF /* MenloHacksIII.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MenloHacksIII.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		957250732054A57A00CC86DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		957250752054A57A00CC86DF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		957250782054A57A00CC86DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9572507A2054A57A00CC86DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9572507D2054A57A00CC86DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9572507F2054A57A00CC86DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		957250842054A57A00CC86DF /* MenloHacksIIITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MenloHacksIIITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		957250882054A57A00CC86DF /* MenloHacksIIITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenloHacksIIITests.swift; sourceTree = "<group>"; };
+		9572508A2054A57A00CC86DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		957250932054BD5900CC86DF /* EventsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsListViewController.swift; sourceTree = "<group>"; };
+		957250972054C17500CC86DF /* EventCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
+		957250992054C30F00CC86DF /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9572506D2054A57900CC86DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		957250812054A57A00CC86DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		957250672054A57900CC86DF = {
+			isa = PBXGroup;
+			children = (
+				957250722054A57900CC86DF /* MenloHacksIII */,
+				957250872054A57A00CC86DF /* MenloHacksIIITests */,
+				957250712054A57900CC86DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		957250712054A57900CC86DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				957250702054A57900CC86DF /* MenloHacksIII.app */,
+				957250842054A57A00CC86DF /* MenloHacksIIITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		957250722054A57900CC86DF /* MenloHacksIII */ = {
+			isa = PBXGroup;
+			children = (
+				957250972054C17500CC86DF /* EventCell.swift */,
+				957250732054A57A00CC86DF /* AppDelegate.swift */,
+				957250752054A57A00CC86DF /* LoginViewController.swift */,
+				957250772054A57A00CC86DF /* Main.storyboard */,
+				9572507A2054A57A00CC86DF /* Assets.xcassets */,
+				9572507C2054A57A00CC86DF /* LaunchScreen.storyboard */,
+				9572507F2054A57A00CC86DF /* Info.plist */,
+				957250932054BD5900CC86DF /* EventsListViewController.swift */,
+				957250992054C30F00CC86DF /* Event.swift */,
+			);
+			path = MenloHacksIII;
+			sourceTree = "<group>";
+		};
+		957250872054A57A00CC86DF /* MenloHacksIIITests */ = {
+			isa = PBXGroup;
+			children = (
+				957250882054A57A00CC86DF /* MenloHacksIIITests.swift */,
+				9572508A2054A57A00CC86DF /* Info.plist */,
+			);
+			path = MenloHacksIIITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9572506F2054A57900CC86DF /* MenloHacksIII */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9572508D2054A57A00CC86DF /* Build configuration list for PBXNativeTarget "MenloHacksIII" */;
+			buildPhases = (
+				9572506C2054A57900CC86DF /* Sources */,
+				9572506D2054A57900CC86DF /* Frameworks */,
+				9572506E2054A57900CC86DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MenloHacksIII;
+			productName = MenloHacksIII;
+			productReference = 957250702054A57900CC86DF /* MenloHacksIII.app */;
+			productType = "com.apple.product-type.application";
+		};
+		957250832054A57A00CC86DF /* MenloHacksIIITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 957250902054A57A00CC86DF /* Build configuration list for PBXNativeTarget "MenloHacksIIITests" */;
+			buildPhases = (
+				957250802054A57A00CC86DF /* Sources */,
+				957250812054A57A00CC86DF /* Frameworks */,
+				957250822054A57A00CC86DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				957250862054A57A00CC86DF /* PBXTargetDependency */,
+			);
+			name = MenloHacksIIITests;
+			productName = MenloHacksIIITests;
+			productReference = 957250842054A57A00CC86DF /* MenloHacksIIITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		957250682054A57900CC86DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = annawong;
+				TargetAttributes = {
+					9572506F2054A57900CC86DF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					957250832054A57A00CC86DF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9572506F2054A57900CC86DF;
+					};
+				};
+			};
+			buildConfigurationList = 9572506B2054A57900CC86DF /* Build configuration list for PBXProject "MenloHacksIII" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 957250672054A57900CC86DF;
+			productRefGroup = 957250712054A57900CC86DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9572506F2054A57900CC86DF /* MenloHacksIII */,
+				957250832054A57A00CC86DF /* MenloHacksIIITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9572506E2054A57900CC86DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9572507E2054A57A00CC86DF /* LaunchScreen.storyboard in Resources */,
+				9572507B2054A57A00CC86DF /* Assets.xcassets in Resources */,
+				957250792054A57A00CC86DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		957250822054A57A00CC86DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9572506C2054A57900CC86DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				957250982054C17500CC86DF /* EventCell.swift in Sources */,
+				957250762054A57A00CC86DF /* LoginViewController.swift in Sources */,
+				957250942054BD5900CC86DF /* EventsListViewController.swift in Sources */,
+				957250742054A57A00CC86DF /* AppDelegate.swift in Sources */,
+				9572509A2054C30F00CC86DF /* Event.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		957250802054A57A00CC86DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				957250892054A57A00CC86DF /* MenloHacksIIITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		957250862054A57A00CC86DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9572506F2054A57900CC86DF /* MenloHacksIII */;
+			targetProxy = 957250852054A57A00CC86DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		957250772054A57A00CC86DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				957250782054A57A00CC86DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9572507C2054A57A00CC86DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9572507D2054A57A00CC86DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9572508B2054A57A00CC86DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9572508C2054A57A00CC86DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9572508E2054A57A00CC86DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MenloHacksIII/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.annawong.MenloHacksIII;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9572508F2054A57A00CC86DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MenloHacksIII/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.annawong.MenloHacksIII;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		957250912054A57A00CC86DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MenloHacksIIITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.annawong.MenloHacksIIITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MenloHacksIII.app/MenloHacksIII";
+			};
+			name = Debug;
+		};
+		957250922054A57A00CC86DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MenloHacksIIITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.annawong.MenloHacksIIITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MenloHacksIII.app/MenloHacksIII";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9572506B2054A57900CC86DF /* Build configuration list for PBXProject "MenloHacksIII" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9572508B2054A57A00CC86DF /* Debug */,
+				9572508C2054A57A00CC86DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9572508D2054A57A00CC86DF /* Build configuration list for PBXNativeTarget "MenloHacksIII" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9572508E2054A57A00CC86DF /* Debug */,
+				9572508F2054A57A00CC86DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		957250902054A57A00CC86DF /* Build configuration list for PBXNativeTarget "MenloHacksIIITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				957250912054A57A00CC86DF /* Debug */,
+				957250922054A57A00CC86DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 957250682054A57900CC86DF /* Project object */;
+}
